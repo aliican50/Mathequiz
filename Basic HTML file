@@ -1,14 +1,14 @@
 Wo ist die Website semantisch ausgestaltet?! (HTML5 Tags benutzen!) 
 
 
-<html>
-  
+<!DOCTYPE html>
+<html lang="de">
   <head>
-    //head content
+    <title>//title content</title>
+    <meta charset="UTF-8">
   </head>
-  
   <body>
-    //body content
+    <h1>//heading content</h1>
+    <p>//paragraph content</p>
   </body>
-
 </html>
