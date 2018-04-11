@@ -4,12 +4,7 @@
 	<meta charset = "UTF-8">
 </head>
 <body>
-	<h1> Profil </h1>
-	<form method = "post" enctype="multipart/dorm-data">
-		<p> Profilfoto auswählen:
-			<input type = "file" name="bild" accept ="image/*">
-		</p>
-	</form>
+	<h1> Anmelden </h1>
 	<form action ="input_text.htm">
 		Anrede
 		<br>
@@ -21,13 +16,12 @@
 		<p> Nachname : <br><input name =" Nachname" type="text" size="30" maxlength="30"><p/>
 		<p> Username : <br><input name ="username" type="text" size="30" maxlength="30"><p/>
 		<p> E-Mail  : <br><input name ="E-Mail" type="text" size ="30" maxlength="30"><p/>
-		<p> Altes Passwort : <br><input type = "password" size="10" maxlength= "10"><p/>
-		<p> Neues Passwort : <br><input type = "password" size="10" maxlength= "10"><p/>
-		<p> Neues Passwort bestaetigen : <br><input type = "password" size="10" maxlength= "10"><p/>
-		<input type = "button" name= "Text 1" value ="Passwort aendern">
-		<br>
-		<br>
-		<input type = "button" name= "Text 1" value ="Account loeschen">
+		<p> Passwort : <br><input type = "password" size="10" maxlength= "10"><p/>
+		<p> Passwort bestaetigen : <br><input type = "password" size="10" maxlength= "10"><p/>
+		<button type = "submit"
+				name = "Subscribe"
+				formaction="/servlets/subscribeServlet"
+				formmethod="post">Abschicken</button>
 	</form>
 </body>
 </html>
